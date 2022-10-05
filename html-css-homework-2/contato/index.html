@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../assets/galinha.ico" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body>
+    
+    <main>
+
+        <header class="nav-container">
+            <div class="nav-logo">
+                <img src="../assets/junimo.gif" alt="Gif de arte pixelada de um personagem do jogo Stardew Valley">
+                <span>Melhores alunos do #Vem Ser DBC</span>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../sobre/index.html">Sobre</a></li>
+                    <li><a href="../contato/index.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="contact-container">
+            <h1>Contato</h1>
+            <form>
+                <div class="contact-item">
+                    <label for="nome">Digite seu nome completo:</label>
+                    <input type="text" name="nome" placeholder="Nome completo">
+                </div>
+                <div class="contact-item">
+                    <label for="email">Digite seu e-mail:</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="contact-item">
+                    <label for="select-input">Qual o motivo do contato?</label>
+                    <select name="select-input" id="select-input">
+                        <option value="motivo" selected disabled hidden>Selecione o motivo</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="contact-item">
+                    <label for="mensagem">Digite sua mensagem:</label>
+                    <br />
+                    <textarea name="mensagem" id="mensagem" cols="40" rows="10" placeholder="Digite sua mensagem..."></textarea>
+                </div>
+                <div class="contact-item">
+                    <input class="contact-button" type="submit" value="Enviar o formulário" />
+                </div>
+            </form>
+        </section>
+
+        <footer class="footer-container">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../sobre/index.html">Sobre</a></li>
+                <li><a href="../contato/index.html">Contato</a></li>
+            </ul>
+            <address>
+                <em>Seattle, Washington - EUA</em>
+            </address>
+        </footer>
+
+    </main>
+
+</body>
+</html>
