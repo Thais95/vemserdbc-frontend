@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #440a61;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-container {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-container {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-container > .purple-box {
+    width: 100%;
+    height: 20%;
+}
+
+.left-container-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 80%;
+}
+
+.left-container-bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+
+.left-container-bottom-right {
+    width: 50%;
+    height: 100%;
+}
+
+.left-container-bottom > .left-container-bottom-left > .yellow-box {
+    width: 100%;
+    height: 75%;
+}
+
+.left-container-bottom > .left-container-bottom-left > .red-box {
+    width: 100%;
+    height: 25%;
+}
+
+.left-container-bottom > .left-container-bottom-right > .blue-box {
+    width: 100%;
+    height: 100%;
+}
+
+.right-container-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 80%;
+}
+
+.right-container-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+
+.right-container-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+
+.right-container > .purple-box {
+    width: 100%;
+    height: 20%;
+}
+
+.right-container-top-left > .red-box {
+    width: 100%;
+    height: 40%;
+}
+
+.right-container-top-left > .yellow-box {
+    width: 100%;
+    height: 40%;
+}
+
+.right-container-top-left > .blue-box {
+    width: 100%;
+    height: 20%;
+}
+
+.right-container-top-right > .blue-box {
+    width: 100%;
+    height: 50%;
+}
+
+.right-container-top-right > .yellow-box {
+    width: 100%;
+    height: 30%;
+}
+
+.right-container-top-right > .red-box {
+    width: 100%;
+    height: 20%;
+}
+
+.purple-box {
+    background-color:#bc53d5;
+}
+
+.yellow-box {
+    background-color: #ffa711;
+}
+
+.red-box {
+    background-color: #f43f4e;
+}
+
+.blue-box {
+    background-color: #00bdd0;
+}
