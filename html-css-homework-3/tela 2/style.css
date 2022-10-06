@@ -1,0 +1,20 @@
+.item-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.item {
+    background-color:lightgray;
+    width: 400px;
+    height: 250px;
+}
+
+.item-name {
+    padding-top: 10px;
+    text-align: center;
+}

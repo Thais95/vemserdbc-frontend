@@ -1,0 +1,38 @@
+.item-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.main-item {
+    background-color: lightgray;
+    width: 900px;
+    height: 500px;
+}
+
+.main-item-name {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.secondary-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.item {
+    background-color: lightgray;
+    width: 300px;
+    height: 200px;
+}
+
+.item-name {
+    padding-top: 10px;
+    text-align: center;
+}
