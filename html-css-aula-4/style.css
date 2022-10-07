@@ -1,0 +1,56 @@
+:root {
+    --background-color: #123257;
+    --red-box: #fa5559;
+    --yellow-box: #ffff00;
+    --blue-box: #39a2fb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--background-color);
+}
+
+.container {
+    width: 60%;
+    height: 80%;
+    display: grid;
+    grid-template: 
+    "red red red yellow" 1fr
+    "red-2 red-2 blue blue" 1fr
+    "red-2 red-2 blue-2 blue-2" 1fr
+    / 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.red {
+    grid-area: red;
+    background-color: var(--red-box);
+}
+
+.blue {
+    grid-area: blue;
+    background-color: var(--blue-box);
+}
+
+.yellow {
+    grid-area: yellow;
+    background-color: var(--yellow-box);
+}
+
+.red-2 {
+    grid-area: red-2;
+    background-color: var(--red-box);
+}
+
+.blue-2 {
+    grid-area: blue-2;
+    background-color: var(--blue-box);
+}
