@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    justify-content: space-evenly;
+}
+
+.item-container {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.notice {
+    background-color:#c4c4c4;
+    width: 400px;
+    height: 250px;
+}
+
+.ad {
+    background-color:white;
+    border: 4px solid black;
+    width: 400px;
+    height: 450px;
+}
+
+.ad-name {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.notice-name {
+    padding-top: 10px;
+    text-align: start;
+}
+
+.product-box {
+    display: grid;
+    align-items: center;
+    gap: 10px;
+}
+
+.item {
+    background-color: #c4c4c4;
+    width: 200px;
+    height: 150px;
+}
