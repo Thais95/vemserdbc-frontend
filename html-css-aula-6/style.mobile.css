@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+}
+
+.card-container {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+}
+
+.user-banner {
+    position: absolute;
+    width: 100vw;
+    height: 150px;
+    border-radius: 0;
+}
+
+.card-links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.link-box {
+    padding-bottom: 15px;
+    width: 90%;
+    height: 60px;
+}
