@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+$purple-primary: #3F41A6;
+$purple-secondary: #1A093C;
+$white: #FFFFFF;
+$gray: #61646B;
+$darker-gray: #2E323B;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: $white;
+}
+
+.get-in-touch-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 240px;
+    height: 70px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: $purple-primary;
+    border: none;
+    color: $white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    &:hover {
+        background-color: $purple-secondary;
+    }
+}
+
+.container {
+    width: 100vw;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 50px;
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        margin-bottom: 50px;
+
+        .logo {
+            height: 30px;
+            width: auto;
+        }
+        
+        li {
+            display: inline-flex;
+            padding-left: 20px;
+            &:first-child {
+                padding-left: 0;
+            }
+            a {
+                color: #787282;
+                font-weight: 600;
+                font-size: 1.25rem;
+                &:hover {
+                    color: $purple-secondary;
+                }
+            }
+        }
+
+        .youtube-button {
+            height: 50px;
+            width: auto;
+        }
+    }
+
+    .hero-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 200px;
+
+        .hero-left {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .hero-title {
+                font-size: 5rem;
+                font-weight: 700;
+                color: $purple-secondary;
+            }
+            
+            .hero-text {
+                font-size: 1.125rem;
+                color: rgba(26, 9, 60, 0.8);
+            }
+        }
+    }
+
+    .section-1-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 200px;
+
+        .section-1-left {
+            width: 50%;
+        }
+
+        .section-1-right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .section-1-subtext{
+                font-size: 1.25rem;
+                font-weight: 600;
+                color: $purple-primary;
+                text-transform: uppercase;
+            }
+            
+            .section-1-title {
+                font-size: 3rem;
+                font-weight: 700;
+                color: $purple-secondary;
+                margin-bottom: 20px;
+            }
+
+            .section-1-text {
+                font-size: 1.125rem;
+                color: rgba(26, 9, 60, 0.8);
+                margin-bottom: 20px;
+                width: 70%;
+            }
+        }
+    }
+
+    .section-2-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 200px;
+        gap: 100px;
+
+        .section-2-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: $purple-secondary;
+        }
+
+        .section-2-items {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+
+            .item-title {
+                font-weight: 700;
+                font-size: 1.25rem;
+                color: $purple-secondary;
+                margin-bottom: 10px;
+            }
+
+            .item-text {
+                font-weight: 400;
+                font-size: 1.125rem;
+                color: $purple-secondary;
+            }
+        }
+    }
+}

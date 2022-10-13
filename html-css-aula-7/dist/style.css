@@ -1,0 +1,162 @@
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./styles/style.scss ***!
+  \************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap);
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./styles/style.scss (1) ***!
+  \****************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.get-in-touch-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 240px;
+  height: 70px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: #3F41A6;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+.get-in-touch-btn:hover {
+  background-color: #1A093C;
+}
+
+.container {
+  width: 100vw;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 50px;
+}
+.container .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.container .header-container .logo {
+  height: 30px;
+  width: auto;
+}
+.container .header-container li {
+  display: inline-flex;
+  padding-left: 20px;
+}
+.container .header-container li:first-child {
+  padding-left: 0;
+}
+.container .header-container li a {
+  color: #787282;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.container .header-container li a:hover {
+  color: #1A093C;
+}
+.container .header-container .youtube-button {
+  height: 50px;
+  width: auto;
+}
+.container .hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.container .hero-container .hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .hero-container .hero-left .hero-title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #1A093C;
+}
+.container .hero-container .hero-left .hero-text {
+  font-size: 1.125rem;
+  color: rgba(26, 9, 60, 0.8);
+}
+.container .section-1-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.container .section-1-container .section-1-left {
+  width: 50%;
+}
+.container .section-1-container .section-1-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .section-1-container .section-1-right .section-1-subtext {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #3F41A6;
+  text-transform: uppercase;
+}
+.container .section-1-container .section-1-right .section-1-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1A093C;
+  margin-bottom: 20px;
+}
+.container .section-1-container .section-1-right .section-1-text {
+  font-size: 1.125rem;
+  color: rgba(26, 9, 60, 0.8);
+  margin-bottom: 20px;
+  width: 70%;
+}
+.container .section-2-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+  gap: 100px;
+}
+.container .section-2-container .section-2-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1A093C;
+}
+.container .section-2-container .section-2-items {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.container .section-2-container .section-2-items .item-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #1A093C;
+  margin-bottom: 10px;
+}
+.container .section-2-container .section-2-items .item-text {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #1A093C;
+}
