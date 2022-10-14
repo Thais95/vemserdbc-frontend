@@ -1,0 +1,25 @@
+@import url(../style.css);
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: all 250ms ease-out 0s;
+    background-color: var(--btn-blue-default);
+    border: 1px solid var(--btn-blue-default);
+    font-size: 1rem;
+    padding: 0.7rem 1rem 0.8rem;
+    color: white !important;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-blue-hover);
+}
+
+.btn-primary:active {
+    background-color: var(--btn-blue-active);
+    border: 3px solid lightgray;
+    transition: all 250ms ease-out 0s;
+}

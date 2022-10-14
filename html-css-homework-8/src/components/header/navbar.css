@@ -1,0 +1,82 @@
+@import url(../style.css);
+
+.header-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    transition: background-color 0.5s ease 0s, box-shadow 0.5s ease 0s;
+    z-index: 2;
+}
+
+.header-container:hover {
+    background-color: white;
+    box-shadow: rgb(9 30 66 / 15%) 0px 0.5rem 1rem 0px;
+}
+
+.header-container a {
+    color: var(--link-primary);
+    font-weight: 600;
+}
+
+.header-menu {
+    width: 75%;
+    max-width: 1320px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links a:hover {
+    color: var(--link-hover);
+}
+
+.links li {
+    display: inline-flex;
+    padding-right: 30px;
+}
+
+.links li:last-child {
+    padding-right: 0;
+}
+
+.nav-login {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-login a:last-child {
+    color: white;
+}
+
+.login-btn {
+    font-size: 1.2rem;
+}
+
+.register-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-blue-default);
+    width: 250px;
+    height: 60px;
+    font-size: 1.2rem;
+}
+
+.register-btn:hover {
+    background-color: var(--btn-blue-hover);
+}
+
+.register-btn:active {
+    background-color: var(--btn-blue-active);
+}

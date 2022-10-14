@@ -1,0 +1,13 @@
+/* PRA VARIÁVEIS CONSTANTES */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
+
+:root {
+    --text-primary: #091e42;
+    --link-primary: #344563;
+    --link-secondary: #0052cc;
+    --link-hover: #0065ff;
+    --footer-bg: #172b4d;
+    --btn-blue-default: #0065FF;
+    --btn-blue-active: #0052CC;
+    --btn-blue-hover: #0747A6;
+}
