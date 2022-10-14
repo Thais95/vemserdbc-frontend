@@ -1,0 +1,21 @@
+@import url(../style.css);
+
+.app-call-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fafbfc;
+}
+
+.app-call-box {
+    width: 65%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.app-call-box img {
+    cursor: pointer;
+    width: 13%;
+}

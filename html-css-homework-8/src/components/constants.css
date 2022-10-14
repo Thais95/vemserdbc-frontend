@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
 
 :root {
+    --background-secondary: #e6fcff;
     --text-primary: #091e42;
+    --text-secondary: #5e6c84;
     --link-primary: #344563;
     --link-secondary: #0052cc;
     --link-hover: #0065ff;

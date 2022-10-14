@@ -4,10 +4,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     height: calc(70vh - 60px);
-    background: linear-gradient(#eae6ff, #ffffff) no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .hero-text h1 {
@@ -19,7 +18,7 @@
 }
 
 .hero-img img {
-    max-width: 360px;    
+    max-width: 350px;    
 }
 
 .hero-text{

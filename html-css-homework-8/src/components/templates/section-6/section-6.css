@@ -1,0 +1,23 @@
+@import url(../style.css);
+
+.section-6-container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.section-6-container img {
+    width: 38%;
+}
+
+.section-6-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-6-text p {
+    color: var(--text-secondary);
+    line-height: 30px;
+}

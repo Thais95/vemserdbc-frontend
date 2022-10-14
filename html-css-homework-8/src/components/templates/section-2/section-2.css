@@ -1,0 +1,37 @@
+@import url(../style.css);
+
+.section-2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    gap: 30px;
+}
+
+.section-2-container h2 {
+    margin-bottom: -20px;
+}
+
+.section-2-big-img img {
+    width: 85%;
+}
+
+.section-2-container button {
+    height: 50px;
+}
+
+.team-logos {
+    width: 80%;
+}
+
+.team-logos img {
+    padding: 20px;
+}
+
+.team-logos img:last-child {
+    width: 220px;
+    height: auto;
+}

@@ -1,0 +1,21 @@
+@import url(../style.css);
+
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: all 250ms ease-out 0s;
+    background-color: white;
+    border: 1px solid var(--btn-blue-default);
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.7rem 1rem 0.8rem;
+    color: var(--text-primary) !important;
+    letter-spacing: 0.5px;
+    outline: solid 0px;
+}
+
+.btn-secondary:hover {
+    opacity: 0.8;
+}
